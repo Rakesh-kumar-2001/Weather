@@ -35,7 +35,7 @@ try {
 		document.body.style.backgroundImage = "url(https://cdn.pixabay.com/photo/2019/10/19/11/35/wolf-4561204_1280.png)";
 		document.body.style.backgroundSize="contains";
 		document.body.style.color="white";
-		document.body.style.backgroundRepeat="no-repeat";;
+		document.body.style.backgroundRepeat="no-repeat";
 	}
 	else if(d.getHours()>6 || d.getHours<17){
 		document.body.style.color="black";
