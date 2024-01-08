@@ -35,16 +35,19 @@ try {
 		document.body.style.backgroundImage = "url(https://cdn.pixabay.com/photo/2019/10/19/11/35/wolf-4561204_1280.png)";
 		document.body.style.backgroundSize="contains";
 		document.body.style.color="white";
+		document.body.style.backgroundPosition="no-repeat";
 	}
 	else if(d.getHours()>6 || d.getHours<17){
 		document.body.style.color="black";
 		document.body.style.backgroundImage = "url(https://cdn.pixabay.com/photo/2017/11/12/13/37/forest-2942477_1280.jpg)";
-		document.body.style.backgroundSize="contains"
+		document.body.style.backgroundSize="contains";
+		document.body.style.backgroundPosition="no-repeat";
 	}
 	else if((d.getHours()>=5||d.getHours()<=6)|| (d.getHours()>=17 || d.getHours()<=19)){
 		document.body.style.color="white";
 		document.body.style.backgroundImage="url(https://cdn.pixabay.com/photo/2019/07/26/07/56/landscape-4364162_1280.jpg)";
-		document.body.style.backgroundSize="contains"
+		document.body.style.backgroundSize="contains";
+		document.body.style.backgroundPosition="no-repeat";
 	}
 	
 	document.getElementById("date").innerHTML=d.toLocaleDateString()+"&nbsp &nbsp &nbsp &nbsp &nbsp"+d.toLocaleTimeString();
