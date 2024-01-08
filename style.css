@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#wethercard {
+    height: 360px;
+    width: 230px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    background: rgba(255, 255, 255, 0.17);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+#search {
+    height: 50px;
+    /* background-color: antiquewhite; */
+    border-radius: 10px 10px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 5px;
+}
+
+#search input {
+    height: 33px;
+    border-radius: 50px;
+    text-align: center;
+
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+#search button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+#search button img {
+    height: 25px;
+    width: 25px;
+}
+
+#imgdiv {
+    height: 100px;
+    width: inherit;
+    /* background-color: yellow; */
+    display: grid;
+    place-items: center;
+}
+
+#imgdiv img {
+    width: 50px;
+    height: 50px;
+}
+
+#info {
+    height: 210px;
+    width: inherit;
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#infotop {
+    height: 100px;
+    display: flex;
+    float: right;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+#temp {
+    height: 80px;
+    width: 90px;
+    background-color: blueviolet;
+    border-radius: 10px;
+    display: grid;
+    place-items: center;
+    padding-left: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1.95px 1.95px 2.6px;
+    color: black;
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+#humidity {
+    height: 80px;
+    width: 90px;
+    border-radius: 10px;
+    display: grid;
+    place-items: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 1.95px 1.95px 2.6px;
+    background: rgba(255, 255, 255, 0.3);
+    color: black;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+#humidi {
+    font-size: 30px;
+}
+
+#infobottom {
+    height: 110px;
+    border-radius: 0px 0px 10px 10px;
+    width: inherit;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.min {
+    height: 80px;
+    width: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1.95px 1.95px 2.6px;
+    background: rgba(255, 255, 255, 0.3);
+    color: black;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.pinfo {
+    padding-top: 5px;
+}
+#date{
+    color: black;
+}
+#place{
+    color: black;
+}
