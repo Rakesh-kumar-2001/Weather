@@ -47,13 +47,13 @@ try {
 		document.body.style.backgroundSize="contains"
 	}
 	
-	document.getElementById("date").innerHTML=d.toLocaleDateString()+"&nbsp &nbsp"+d.toLocaleTimeString();
+	document.getElementById("date").innerHTML=d.toLocaleDateString()+"&nbsp &nbsp &nbsp &nbsp &nbsp"+d.toLocaleTimeString();
 } catch (error) {
 	console.error(error);
 }
 }
 
-wreport("Brahmapur");
+wreport("Bhubaneswar");
 const city=document.getElementById("input")
 document.getElementById("serbtn").addEventListener("click",(e)=>{
 	e.preventDefault();
